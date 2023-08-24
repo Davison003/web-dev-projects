@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo Formulario</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form>
+          <label for="nome">Nome Completo:</label><br />
+          <input type="text" id="name" size="35" autofocus required /><br />
+
+          <label for="idade">Idade:</label><br />
+          <input type="number" size="10" min="18" max="120" required /><br />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            size="35"
+            placeholder="digite um email valido"
+            required
+          /><br />
+          <br />
+
+          <label for="conteudo">Conteudo de maior interesse:</label><br />
+          <select name="conteudo" id="conteudo">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option></select
+          ><br />
+
+          <label for="opiniao">Deixe sua Opiniao:</label><br />
+          <textarea name="opiniao" id="opiniao" cols="30" rows="5"></textarea
+          ><br />
+
+          <label for="pwd">Senha:</label><br />
+          <input type="password" size="20" required /><br />
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
