@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculo Vitae</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
-      <h1>Davi Regonatti Rodrigues</h1>
-      <figure>
-        <img
-          src="https://lh3.googleusercontent.com/a/AAcHTteIJAsrcdhw-TfBwdrJC77c02OmmbPaSqjxYPh-Lglh=s288-c-no"
+      <h1 id="nome" class="titulos">Davi Regonatti Rodrigues</h1>
+      <figure id="foto_perfil">
+        <img  id="pfp"
+          src="https://media.licdn.com/dms/image/D4D03AQG6Xfib3o-Zvg/profile-displayphoto-shrink_200_200/0/1692897758886?e=1698278400&v=beta&t=1WVoJ_iK_BC6ZLNI6Hf1-JsT3e7fWw4_KwhsN-s8BGI"
           alt="Foto de Perfil"
-          width="120"
-          height="120"
+          width="110"
+          height="110"
         />
       </figure>
     </header>
+    <br>
     <nav>
       <ul>
         <li>
@@ -40,40 +42,40 @@
             >Github</a
           >
         </li>
-        <li>Cornelio Procópio - PR</li>
+        <li id="corn">Cornelio Procópio - PR</li>
       </ul>
     </nav>
     <main>
       <section>
-        <h2>Resumo</h2>
-        <p style="text-indent: 25px">
+        <h2  class="categoria">Resumo</h2>
+        <p class="ponto_resumo">
           Estudante de Engenharia de Computação na UTFPR-CP
         </p>
-        <p style="text-indent: 25px">
-          Principais interesses são tecnologias de back-end, data science e
-          computação gráfica
+        <p class="ponto_resumo">
+          Principais interesses são <span id="interesses">tecnologias de back-end, data science e
+            computação gráfica</span> .
         </p>
       </section>
       <section>
-        <h2>ODS que pretendo contribuir</h2>
+        <h2 class="categoria">ODS que pretendo contribuir</h2>
         <figure>
-          <img
+          <img class="ods"
             src="https://pactoglobal.org.br/storage/ods/March2019/UO0tv2XffntByoEiyiEy.png"
             alt="ODS trabalho decente"
-            width="125"
-            height="125"
+            width="110"
+            height="110"
           />
-          <img
+          <img class="ods"
             src="https://pactoglobal.org.br/storage/ods/March2019/UWV854aG6N8GGsQG0lS1.png"
             alt="ODS inovacao"
-            width="125"
-            height="125"
+            width="110"
+            height="110"
           />
         </figure>
       </section>
       <section>
-        <h2>Habilidades</h2>
-        <ol>
+        <h2 class="categoria">Habilidades</h2>
+        <ol class="lista">
           <li>Java Avançado</li>
           <li>Python Avançado com foco em Pandas e Numpy</li>
           <li>Inglês Fluente</li>
@@ -81,16 +83,18 @@
         </ol>
       </section>
       <section>
-        <h2>Hobbies</h2>
-        <ul>
+        <h2 class="categoria">Hobbies</h2>
+        <ul class="lista">
           <li>Leitura de diversos gêneros</li>
           <li>Estudo de diferentes Línguas</li>
           <li>Prática de esportes</li>
         </ul>
       </section>
-    </main>
-    <footer>
       <br />
+    </main>
+    
+    <footer>
+      
       <p>CV - Davi Rodrigues - 2023</p>
     </footer>
   </body>

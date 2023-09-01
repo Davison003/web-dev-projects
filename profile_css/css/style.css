@@ -1,0 +1,65 @@
+footer {
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  background-color: rgb(130, 160, 187);
+  color: whitesmoke;
+}
+
+a:hover {
+  color: rgb(100, 155, 255);
+}
+
+a,
+#corn {
+  color: rgb(46, 61, 77);
+  text-decoration: none;
+  font-size: 103%;
+}
+
+#nome {
+  text-align: center;
+  font-size: 130%;
+  text-decoration: underline;
+  color: rgb(62, 90, 124);
+}
+
+#foto_perfil {
+  text-align: center;
+  text-shadow: 0, 0, 3px, black;
+}
+
+.ponto_resumo {
+  text-indent: 25px;
+  font-style: italic;
+  font-size: 115%;
+}
+
+#interesses {
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(183, 210, 233);
+}
+
+.categoria {
+  background-color: rgb(130, 160, 187);
+  color: whitesmoke;
+  text-indent: 1.5%;
+  padding-bottom: 0.2%;
+  padding-top: 0.1%;
+}
+
+#nome,
+.categoria,
+a,
+.lista,
+footer,
+#corn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pfp {
+  filter: drop-shadow(0 0 5px rgb(105, 124, 141));
+}
