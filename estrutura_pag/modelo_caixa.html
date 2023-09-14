@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estrutura</title>
+    <style>
+      .red {
+        background-color: red;
+        border: 10px dotted yellow;
+        position: relative;
+        padding: 15%;
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 10% 30% 60%;
+      }
+
+      .blue {
+        position: absolute;
+        background-color: blue;
+        padding: 43%;
+        display: inline-block;
+        margin: -43%;
+      }
+
+      .green {
+        background-color: green;
+        position: absolute;
+        padding: 38%;
+        margin: -38%;
+      }
+      .yellow {
+        background-color: yellow;
+        padding: 25%;
+        position: absolute;
+      }
+      #nome {
+        position: fixed;
+        margin: -9%;
+        color: aliceblue;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="red">
+        <div class="blue">
+          <div class="green">
+            <div class="yellow">
+              <p id="nome">Davi Rodrigues</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
