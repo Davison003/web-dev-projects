@@ -1,0 +1,60 @@
+#logo {
+  width: 40%;
+  height: auto;
+  max-width: 500px;
+  position: relative;
+  float: left;
+  margin-left: -2%;
+}
+
+body {
+  background-color: rgb(220, 215, 215);
+}
+
+#img_caption {
+  visibility: hidden;
+}
+
+.nav-info {
+  font-size: 160%;
+  text-decoration: none;
+  color: cornflowerblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+#consult-button {
+  border-width: medium;
+
+  padding: 0.5%;
+  border-radius: 10%;
+  border-color: cornflowerblue;
+  border-style: solid;
+  color: whitesmoke;
+  background-color: cornflowerblue;
+}
+
+#consult-button:hover {
+  color: cornflowerblue;
+  background-color: rgb(220, 215, 215);
+}
+
+a:hover {
+  color: rgb(49, 72, 113);
+}
+
+ul {
+  margin: 1.6% auto auto 20%;
+}
+
+.nav-item {
+  display: inline;
+  padding-left: 10%;
+}
+
+#quote {
+  margin: 15% 20% 8%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 250%;
+}

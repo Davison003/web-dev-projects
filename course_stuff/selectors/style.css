@@ -1,0 +1,59 @@
+body {
+  background-color: #f4f1de;
+}
+
+button {
+  font-size: large;
+  background-color: #81b29a;
+  border-radius: 15%;
+}
+
+h1,
+h2 {
+  color: #3d405b;
+}
+
+.posted {
+  color: #e07a5f;
+}
+
+.tag {
+  background-color: #efc3e6;
+  color: #003049;
+  border: #efc3e6;
+  border-radius: 20px;
+  padding: 0.25%;
+}
+
+/* every descendent */
+.post a {
+  color: #3d405b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* right after */
+h2 + button {
+  font-size: 15px;
+}
+
+/* direct child */
+footer > a {
+  color: #073b4c;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post:nth-of-type(2n-1) {
+  background-color: #dddaca;
+}
+
+.post h2::first-letter {
+  font-size: 120%;
+}
+
+.post h2::selection {
+  background-color: #e379ce;
+}

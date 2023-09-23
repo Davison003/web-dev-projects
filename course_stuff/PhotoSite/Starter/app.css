@@ -1,0 +1,18 @@
+img {
+  width: 30%;
+  height: auto;
+  border: 0solid black;
+  margin: calc(10% / 6);
+  box-shadow: 0 0 0.3em black;
+  border-radius: 2%;
+}
+
+nav {
+  font-family: "Work Sans", sans-serif;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  font-size: 1.5em;
+  padding: 1.2em 0;
+  text-transform: uppercase;
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0.2);
+}
